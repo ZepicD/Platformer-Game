@@ -13,6 +13,7 @@ public class GameWindow{
         jframe.setSize(400, 400);           // 400x400px
         jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);          // terminiranje programa ob zapiranju aplikacije
         jframe.add(gamePanel);              // jpanel dodamo na frame (okvir in slika)
+        jframe.setLocationRelativeTo(null);             // polje da na sredino ekrana
         jframe.setVisible(true);                       // vidno polje
     }
 
